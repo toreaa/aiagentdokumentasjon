@@ -30,30 +30,32 @@ Dette er en produksjonsklar Netbox-deployment med separert arkitektur for applik
 ```
 URL: http://146.190.148.117
 Bruker: admin
-Passord: [REDACTED]
+Passord: [REDACTED - Se sikker passordlagring]
 ```
 
 **Grafana:**
 ```
 URL: http://165.232.66.71:3000
 Bruker: admin
-Passord: [REDACTED]
+Passord: [REDACTED - Se sikker passordlagring]
 ```
 
 **SSH til servere:**
 ```bash
 # Server 1 - Netbox
 ssh opsuser@146.190.148.117
-# Passord: [REDACTED]
+# Passord: [REDACTED - Se sikker passordlagring]
 
 # Server 2 - PostgreSQL
 ssh opsuser@104.248.172.65
-# Passord: [REDACTED]
+# Passord: [REDACTED - Se sikker passordlagring]
 
 # Server 3 - Monitoring
 ssh opsuser@165.232.66.71
-# Passord: [REDACTED]
+# Passord: [REDACTED - Se sikker passordlagring]
 ```
+
+> **Sikkerhet:** Alle passord er fjernet fra dokumentasjonen. Kontakt systemadministrator for tilgangsinformasjon.
 
 ## Systemstatus
 
